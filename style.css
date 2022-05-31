@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #616161;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.layout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90vw;
+	height: 90vh;
+}
+
+.content {
+	position: relative;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.content > div {
+	position: absolute;
+}
+
+.station1 {
+	right: 0;
+	top: 0;
+}
+
+#imgStation1 {
+	width: 80px;
+	height: 100px;
+}
+
+.station2 {
+	left: 0;
+	top: 0;
+}
+
+.station3 {
+	left: 0;
+	bottom: 0;
+}
+
+.station4 {
+	right: 0;
+	bottom: 0;
+}
+
+.station5 {
+	top: 50%;
+	left: 45%;
+}
