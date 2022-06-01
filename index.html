@@ -6,36 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIM station</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="leds-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 	</head>
 	<body>
       <div class="layout">
           <div class="content">
               <div class="station1">
-                  <p>Estación de ensamblaje</p>
-                  <span>Disponibilidad</span>
+                  <h2>Estación de ensamblaje</h2>
+                  <div>
+                    <span>Costo: <span class="costoEnsamblaje"></span></span>
+                  </div>
+                  <span>Disponibilidad: </span>
+                  <div class="led1Ensamblaje">
+                  </div>
+                  <div class="led2Ensamblaje">
+                  </div>
                   <img class="imgStation1" src="/imgs/ensamblaje.jpeg" />
               </div>
               <div class="station2">
-                <p>Estacion Calidad</p>
-                <span>Disponibilidad</span>
+                <h2>Estacion Calidad</h2>
+                <div>
+                  <span>Costo: <span class="costoCalidad"></span></span>
+                </div>
+                <span>Disponibilidad: </span>
+                <div class="led1Calidad">
+                </div>
+                <div class="led2Calidad">
+                </div>
                 <img class="imgStation1" src="/imgs/calidad.jpeg" />
               </div>
               <div class="station3">
-                <p>Estación de mecanizado</p>
-                <span>Disponibilidad</span>
+                <h2>Estación de mecanizado</h2>
+                <div>
+                  <span>Costo: <span class="costoMecanizado"></span></span>
+                </div>
+                <span>Disponibilidad: </span>
+                <div class="led1Mecanizado">
+                </div>
+                <div class="led2Mecanizado">
+                </div>
                 <img class="imgStation1" src="/imgs/mecanizado.jpeg" />
               </div>
               <div class="station4">
-                <p>Estacion de alimentación</p>
-                <span>Disponibilidad</span>
+                <h2>Estacion de alimentación</h2>
+                <div>
+                  <span>Costo: <span class="costoAlimentacion"></span></span>
+                </div>
+                <span>Disponibilidad: </span>
+                <div class="led1Alimentacion">
+                </div>
+                <div class="led2Alimentacion">
+                </div>
                 <img class="imgStation1" src="/imgs/alimentacion.jpeg" />
               </div>
               <div class="station5">
-                <p>Estacion de procesos</p>
-                <span>Disponibilidad</span>
+                <h2>Estacion de procesos</h2>
+                <div>
+                  <span>Costo: <span class="costoProcesos"></span></span>
+                </div>
+                <span>Disponibilidad: </span>
+                <div class="led1Procesos">
+                </div>
+                <div class="led2Procesos">
+                </div>
                 <img class="imgStation1" src="/imgs/procesos.jpeg" />
               </div>
           </div>
       </div>
+      <script type="module" src="firebase-client.js"></script>
+      <script type="module" src="index.js"></script>
 	</body>
 </html>

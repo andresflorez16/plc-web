@@ -9,6 +9,7 @@ body {
 	background-image: url('/imgs/background.jpeg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	font-family: 'JetBrains Mono', monospace;
 }
 
 .layout {
@@ -38,6 +39,7 @@ body {
 	box-shadow: 2px 5px 5px #333;
 	right: 1%;
 	top: 0;
+
 }
 
 .imgStation1 {
@@ -64,6 +66,8 @@ body {
 	bottom: 0;
 }
 
+
+
 .station4 {
   background-color: #fff;
 	padding: 10px;
@@ -80,4 +84,110 @@ body {
 	box-shadow: 2px 5px 5px #333;
 	top: 35%;
 	left: 1%;
+}
+
+.led1Calidad {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightRed 1s infinite;
+	border: 1px solid #222;
+}
+
+.led2Calidad {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightGreen 1s infinite;
+	border: 1px solid #222;
+}
+
+.led1Ensamblaje {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightRed 1s infinite;
+	border: 1px solid #222;
+}
+
+.led2Ensamblaje {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightGreen 1s infinite;
+	border: 1px solid #222;
+}
+
+.led1Procesos {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightRed 1s infinite;
+	border: 1px solid #222;
+}
+
+.led2Procesos {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightGreen 1s infinite;
+	border: 1px solid #222;
+}
+.led1Mecanizado {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightRed 1s infinite;
+	border: 1px solid #222;
+}
+
+.led2Mecanizado {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightGreen 1s infinite;
+	border: 1px solid #222;
+}
+.led1Alimentacion {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightRed 1s infinite;
+	border: 1px solid #222;
+}
+
+.led2Alimentacion {
+	display: inline-block;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: lightGreen 1s infinite;
+	border: 1px solid #222;
+}
+
+@keyframes lightGreen {
+	from {
+		background-color: #0f0;
+	}
+	to {
+		background-color: f30000;
+	}
+}
+
+@keyframes lightRed {
+	from {
+		background-color: #f00;
+	}
+	to {
+		background-color: 00f300;;
+	}
 }
