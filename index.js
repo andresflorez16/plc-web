@@ -11,7 +11,7 @@ const getQualityData = () => {
 	onValue(lastestData, (snapshot) => {
 		if (snapshot.val()) {
 			let key = Object.keys(snapshot.val())
-			costoCalidad.innerHTML = snapshot.val()[key].value
+			costoCalidad.innerHTML = snapshot.val()[key].Var1
 		}
 	}) 
 }
